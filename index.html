@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SP1</title>
+   
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SP1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Recursos/estilos.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iconbar.css">
+  </head>
+  
+  <body>
+        <div class="nav-side-menu">
+    <div class="brand">Picanteria Charito</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+
+
+                 <li>
+                  <a href="#">
+                  <i class="fa fa-user fa-lg"></i> Pedir
+                  </a>
+                  </li>
+
+                 <li>
+                  <a href="#">
+                  <i class="fa fa-users fa-lg"></i> Pedidos
+                  </a>
+                </li>
+            </ul>
+     </div>
+</div>
+     
+<div class="main"id="pedido">
+  <h2>SISTEMA DE PEDIDOS V1</h2>
+  <p>Realiza tus pedidos.</p>
+    <div class="form-row" >
+    <div class="col">
+        <p>PINCHO CARNE</p>
+      <input type="number" id="inpCarne" class="form-control" placeholder="PINCHO CARNE" value="0">
+    </div>
+    <div class="col">
+        <p>PINCHO POLLO</p>
+      <input type="number" id="inpPollo" class="form-control" placeholder="PINCHO POLLO" value="0">
+    </div>
+    <div class="col">
+        <p>CHOCLO</p>
+      <input type="number" id="inpChoclo" class="form-control" placeholder="CHOCLO" value="0">
+    </div>
+    <div class="col">
+        <p>PINCHOCLO CARNE</p>
+      <input type="number" id="inpPCCarne" class="form-control" placeholder="PINCHOCLO CARNE" value="0">
+    </div>
+    <div class="col">
+        <p>PINCHOCLO POLLO</p>
+      <input type="number" id="inpPCPollo" class="form-control" placeholder="PINCHOCLO POLLO" value="0">
+    </div>
+    <div class="col">
+        <p>PINCHOCLO MIXTO</p>
+      <input type="number" id="inpPCMixto" class="form-control" placeholder="PINCHOCLO MIXTO" value="0">
+    </div>
+  </div>
+</div>
+<center><button type="button" class="btn btn-success" onclick="imprimirPedido()">Pedir</button></center>
+<div  class="container">
+    <div class="row" id="impresion">
+    
+</div>
+      
+
+        <script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+	
+  </body>
+</html>
